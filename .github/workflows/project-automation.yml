@@ -8,7 +8,19 @@ on:
 permissions:
   issues: write
   pull-requests: write
+  contents: write
+  actions: write
+  attestations: write
+  checks: write
+  deployments: write
+  discussions: write
+  models: write
+  packages: write
+  pages: write
   repository-projects: write
+  security-events: write
+  statuses: write
+  id-token: write
 
 jobs:
   auto-add-to-project:
